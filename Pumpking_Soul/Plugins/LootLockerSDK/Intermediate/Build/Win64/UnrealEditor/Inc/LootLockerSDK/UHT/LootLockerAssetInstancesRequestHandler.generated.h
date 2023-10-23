@@ -1,0 +1,145 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "GameAPI/LootLockerAssetInstancesRequestHandler.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FLootLockerAssetInstanceStorageItemResponse;
+struct FLootLockerAssetInstanceStorageItemsResponse;
+struct FLootLockerLootBoxContentResponse;
+struct FLootLockerOpenLootBoxResponse;
+#ifdef LOOTLOCKERSDK_LootLockerAssetInstancesRequestHandler_generated_h
+#error "LootLockerAssetInstancesRequestHandler.generated.h already included, missing '#pragma once' in LootLockerAssetInstancesRequestHandler.h"
+#endif
+#define LOOTLOCKERSDK_LootLockerAssetInstancesRequestHandler_generated_h
+
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerAssetInstancesRequestHandler_h_16_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FLootLockerAssetInstanceStorageItem_Statics; \
+	LOOTLOCKERSDK_API static class UScriptStruct* StaticStruct();
+
+
+template<> LOOTLOCKERSDK_API UScriptStruct* StaticStruct<struct FLootLockerAssetInstanceStorageItem>();
+
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerAssetInstancesRequestHandler_h_25_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FLootLockerAssetInstanceStorageResponseItem_Statics; \
+	LOOTLOCKERSDK_API static class UScriptStruct* StaticStruct(); \
+	typedef FLootLockerAssetInstanceStorageItem Super;
+
+
+template<> LOOTLOCKERSDK_API UScriptStruct* StaticStruct<struct FLootLockerAssetInstanceStorageResponseItem>();
+
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerAssetInstancesRequestHandler_h_32_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FLootLockerAssetInstanceStorageItems_Statics; \
+	LOOTLOCKERSDK_API static class UScriptStruct* StaticStruct();
+
+
+template<> LOOTLOCKERSDK_API UScriptStruct* StaticStruct<struct FLootLockerAssetInstanceStorageItems>();
+
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerAssetInstancesRequestHandler_h_40_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FLootLockerAssetInstanceStorageItemsResponse_Statics; \
+	LOOTLOCKERSDK_API static class UScriptStruct* StaticStruct(); \
+	typedef FLootLockerResponse Super;
+
+
+template<> LOOTLOCKERSDK_API UScriptStruct* StaticStruct<struct FLootLockerAssetInstanceStorageItemsResponse>();
+
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerAssetInstancesRequestHandler_h_48_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FLootLockerAssetInstanceStorageItemResponse_Statics; \
+	LOOTLOCKERSDK_API static class UScriptStruct* StaticStruct(); \
+	typedef FLootLockerResponse Super;
+
+
+template<> LOOTLOCKERSDK_API UScriptStruct* StaticStruct<struct FLootLockerAssetInstanceStorageItemResponse>();
+
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerAssetInstancesRequestHandler_h_55_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FLootLockerLootBoxItem_Statics; \
+	LOOTLOCKERSDK_API static class UScriptStruct* StaticStruct();
+
+
+template<> LOOTLOCKERSDK_API UScriptStruct* StaticStruct<struct FLootLockerLootBoxItem>();
+
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerAssetInstancesRequestHandler_h_69_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FLootLockerLootBoxContentResponse_Statics; \
+	LOOTLOCKERSDK_API static class UScriptStruct* StaticStruct(); \
+	typedef FLootLockerResponse Super;
+
+
+template<> LOOTLOCKERSDK_API UScriptStruct* StaticStruct<struct FLootLockerLootBoxContentResponse>();
+
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerAssetInstancesRequestHandler_h_77_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FLootLockerOpenLootBoxResponse_Statics; \
+	LOOTLOCKERSDK_API static class UScriptStruct* StaticStruct(); \
+	typedef FLootLockerResponse Super;
+
+
+template<> LOOTLOCKERSDK_API UScriptStruct* StaticStruct<struct FLootLockerOpenLootBoxResponse>();
+
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerAssetInstancesRequestHandler_h_82_DELEGATE \
+LOOTLOCKERSDK_API void FAssetInstanceStorageItemsResponseDelegateBP_DelegateWrapper(const FScriptDelegate& AssetInstanceStorageItemsResponseDelegateBP, FLootLockerAssetInstanceStorageItemsResponse Response);
+
+
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerAssetInstancesRequestHandler_h_83_DELEGATE \
+LOOTLOCKERSDK_API void FAssetInstanceStorageItemResponseDelegateBP_DelegateWrapper(const FScriptDelegate& AssetInstanceStorageItemResponseDelegateBP, FLootLockerAssetInstanceStorageItemResponse Response);
+
+
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerAssetInstancesRequestHandler_h_84_DELEGATE \
+LOOTLOCKERSDK_API void FLootBoxContentResponseDelegateBP_DelegateWrapper(const FScriptDelegate& LootBoxContentResponseDelegateBP, FLootLockerLootBoxContentResponse Response);
+
+
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerAssetInstancesRequestHandler_h_85_DELEGATE \
+LOOTLOCKERSDK_API void FOpenLootBoxResponseDelegateBP_DelegateWrapper(const FScriptDelegate& OpenLootBoxResponseDelegateBP, FLootLockerOpenLootBoxResponse Response);
+
+
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerAssetInstancesRequestHandler_h_95_SPARSE_DATA
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerAssetInstancesRequestHandler_h_95_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerAssetInstancesRequestHandler_h_95_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerAssetInstancesRequestHandler_h_95_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerAssetInstancesRequestHandler_h_95_ACCESSORS
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerAssetInstancesRequestHandler_h_95_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesULootLockerAssetInstancesRequestHandler(); \
+	friend struct Z_Construct_UClass_ULootLockerAssetInstancesRequestHandler_Statics; \
+public: \
+	DECLARE_CLASS(ULootLockerAssetInstancesRequestHandler, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/LootLockerSDK"), NO_API) \
+	DECLARE_SERIALIZER(ULootLockerAssetInstancesRequestHandler)
+
+
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerAssetInstancesRequestHandler_h_95_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API ULootLockerAssetInstancesRequestHandler(ULootLockerAssetInstancesRequestHandler&&); \
+	NO_API ULootLockerAssetInstancesRequestHandler(const ULootLockerAssetInstancesRequestHandler&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ULootLockerAssetInstancesRequestHandler); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ULootLockerAssetInstancesRequestHandler); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ULootLockerAssetInstancesRequestHandler) \
+	NO_API virtual ~ULootLockerAssetInstancesRequestHandler();
+
+
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerAssetInstancesRequestHandler_h_91_PROLOG
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerAssetInstancesRequestHandler_h_95_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerAssetInstancesRequestHandler_h_95_SPARSE_DATA \
+	FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerAssetInstancesRequestHandler_h_95_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerAssetInstancesRequestHandler_h_95_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerAssetInstancesRequestHandler_h_95_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerAssetInstancesRequestHandler_h_95_ACCESSORS \
+	FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerAssetInstancesRequestHandler_h_95_INCLASS_NO_PURE_DECLS \
+	FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerAssetInstancesRequestHandler_h_95_ENHANCED_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> LOOTLOCKERSDK_API UClass* StaticClass<class ULootLockerAssetInstancesRequestHandler>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerAssetInstancesRequestHandler_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

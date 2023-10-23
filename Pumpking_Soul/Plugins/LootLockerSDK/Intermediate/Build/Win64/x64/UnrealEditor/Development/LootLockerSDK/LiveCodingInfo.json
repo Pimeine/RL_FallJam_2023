@@ -1,0 +1,87 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LootLockerSDK.1.cpp.obj": [
+			"LootLockerAccountLinkRequestHandler.gen.cpp.obj",
+			"LootLockerAssetInstancesRequestHandler.gen.cpp.obj",
+			"LootLockerAssetsRequestHandler.gen.cpp.obj",
+			"LootLockerAuthenticationRequestHandler.gen.cpp.obj"
+		],
+		"Module.LootLockerSDK.2.cpp.obj": [
+			"LootLockerBalanceRequestHandler.gen.cpp.obj",
+			"LootLockerCatalogRequestHandler.gen.cpp.obj",
+			"LootLockerCharacterRequestHandler.gen.cpp.obj"
+		],
+		"Module.LootLockerSDK.3.cpp.obj": [
+			"LootLockerCollectablesRequestHandler.gen.cpp.obj",
+			"LootLockerConfig.gen.cpp.obj",
+			"LootLockerCurrencyRequestHandler.gen.cpp.obj",
+			"LootLockerDropTablesRequestHandler.gen.cpp.obj",
+			"LootLockerGameEndpoints.gen.cpp.obj",
+			"LootLockerHeroRequestHandler.gen.cpp.obj",
+			"LootLockerHttpClient.gen.cpp.obj",
+			"LootLockerLeaderboardRequestHandler.gen.cpp.obj"
+		],
+		"Module.LootLockerSDK.4.cpp.obj": [
+			"LootLockerManager.gen.cpp.obj"
+		],
+		"Module.LootLockerSDK.5.cpp.obj": [
+			"LootLockerMapsRequestHandler.gen.cpp.obj",
+			"LootLockerMessagesRequestHandler.gen.cpp.obj",
+			"LootLockerMiscellaneousRequestHandler.gen.cpp.obj",
+			"LootLockerMissionsRequestHandler.gen.cpp.obj",
+			"LootLockerPersistedState.gen.cpp.obj",
+			"LootLockerPersistentStorageRequestHandler.gen.cpp.obj",
+			"LootLockerPlatformManager.gen.cpp.obj",
+			"LootLockerPlayerFilesRequestHandler.gen.cpp.obj",
+			"LootLockerPlayerRequestHandler.gen.cpp.obj"
+		],
+		"Module.LootLockerSDK.6.cpp.obj": [
+			"LootLockerProgressionsRequestHandler.gen.cpp.obj",
+			"LootLockerPurchasesRequestHandler.gen.cpp.obj",
+			"LootLockerResponse.gen.cpp.obj",
+			"LootLockerSaveState.gen.cpp.obj",
+			"LootLockerSDK.init.gen.cpp.obj"
+		],
+		"Module.LootLockerSDK.7.cpp.obj": [
+			"LootLockerSDKManager.gen.cpp.obj",
+			"LootLockerStateData.gen.cpp.obj",
+			"LootLockerTriggerEventsRequestHandler.gen.cpp.obj",
+			"LootLockerUserGeneratedContentRequestHandler.gen.cpp.obj",
+			"LootLockerAccountLinkRequestHandler.cpp.obj",
+			"LootLockerAssetInstancesRequestHandler.cpp.obj",
+			"LootLockerAssetsRequestHandler.cpp.obj",
+			"LootLockerAuthenticationRequestHandler.cpp.obj",
+			"LootLockerBalanceRequestHandler.cpp.obj",
+			"LootLockerCatalogRequestHandler.cpp.obj",
+			"LootLockerCharacterRequestHandler.cpp.obj",
+			"LootLockerCollectablesRequestHandler.cpp.obj",
+			"LootLockerCurrencyRequestHandler.cpp.obj",
+			"LootLockerDropTablesRequestHandler.cpp.obj",
+			"LootLockerHeroRequestHandler.cpp.obj",
+			"LootLockerLeaderboardRequestHandler.cpp.obj",
+			"LootLockerMapsRequestHandler.cpp.obj",
+			"LootLockerMessagesRequestHandler.cpp.obj",
+			"LootLockerMiscellaneousRequestHandler.cpp.obj",
+			"LootLockerMissionsRequestHandler.cpp.obj",
+			"LootLockerPersistentStorageRequestHandler.cpp.obj",
+			"LootLockerPlayerFilesRequestHandler.cpp.obj",
+			"LootLockerPlayerRequestHandler.cpp.obj",
+			"LootLockerProgressionsRequestHandler.cpp.obj",
+			"LootLockerPurchasesRequestHandler.cpp.obj",
+			"LootLockerTriggerEventsRequestHandler.cpp.obj",
+			"LootLockerUserGeneratedContentRequestHandler.cpp.obj",
+			"LootLockerConfig.cpp.obj",
+			"LootLockerGameEndpoints.cpp.obj",
+			"LootLockerHttpClient.cpp.obj",
+			"LootLockerManager.cpp.obj",
+			"LootLockerPlatformManager.cpp.obj",
+			"LootLockerSDK.cpp.obj",
+			"LootLockerSDKManager.cpp.obj"
+		],
+		"Module.LootLockerSDK.8.cpp.obj": [
+			"LootLockerStateData.cpp.obj",
+			"LootLockerUtilities.cpp.obj"
+		]
+	}
+}

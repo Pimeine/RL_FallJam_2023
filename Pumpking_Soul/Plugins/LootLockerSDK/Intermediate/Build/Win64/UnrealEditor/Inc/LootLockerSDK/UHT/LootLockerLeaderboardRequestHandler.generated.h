@@ -1,0 +1,192 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "GameAPI/LootLockerLeaderboardRequestHandler.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FLootLockerGetAllMemberRanksResponse;
+struct FLootLockerGetByListOfMembersResponse;
+struct FLootLockerGetMemberRankResponse;
+struct FLootLockerGetScoreListResponse;
+struct FLootLockerSubmitScoreResponse;
+#ifdef LOOTLOCKERSDK_LootLockerLeaderboardRequestHandler_generated_h
+#error "LootLockerLeaderboardRequestHandler.generated.h already included, missing '#pragma once' in LootLockerLeaderboardRequestHandler.h"
+#endif
+#define LOOTLOCKERSDK_LootLockerLeaderboardRequestHandler_generated_h
+
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerLeaderboardRequestHandler_h_16_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FLootLockerPlayer_Statics; \
+	LOOTLOCKERSDK_API static class UScriptStruct* StaticStruct();
+
+
+template<> LOOTLOCKERSDK_API UScriptStruct* StaticStruct<struct FLootLockerPlayer>();
+
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerLeaderboardRequestHandler_h_28_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FLootLockerGetMemberRankResponse_Statics; \
+	LOOTLOCKERSDK_API static class UScriptStruct* StaticStruct(); \
+	typedef FLootLockerResponse Super;
+
+
+template<> LOOTLOCKERSDK_API UScriptStruct* StaticStruct<struct FLootLockerGetMemberRankResponse>();
+
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerLeaderboardRequestHandler_h_44_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FLootLockerMember_Statics; \
+	LOOTLOCKERSDK_API static class UScriptStruct* StaticStruct();
+
+
+template<> LOOTLOCKERSDK_API UScriptStruct* StaticStruct<struct FLootLockerMember>();
+
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerLeaderboardRequestHandler_h_60_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FLootLockerLeaderboard_Statics; \
+	LOOTLOCKERSDK_API static class UScriptStruct* StaticStruct();
+
+
+template<> LOOTLOCKERSDK_API UScriptStruct* StaticStruct<struct FLootLockerLeaderboard>();
+
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerLeaderboardRequestHandler_h_72_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FLootLockerPagination_Statics; \
+	LOOTLOCKERSDK_API static class UScriptStruct* StaticStruct();
+
+
+template<> LOOTLOCKERSDK_API UScriptStruct* StaticStruct<struct FLootLockerPagination>();
+
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerLeaderboardRequestHandler_h_82_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FLootLockerGetByListOfMembersResponse_Statics; \
+	LOOTLOCKERSDK_API static class UScriptStruct* StaticStruct(); \
+	typedef FLootLockerResponse Super;
+
+
+template<> LOOTLOCKERSDK_API UScriptStruct* StaticStruct<struct FLootLockerGetByListOfMembersResponse>();
+
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerLeaderboardRequestHandler_h_90_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FLootLockerGetScoreListResponse_Statics; \
+	LOOTLOCKERSDK_API static class UScriptStruct* StaticStruct(); \
+	typedef FLootLockerResponse Super;
+
+
+template<> LOOTLOCKERSDK_API UScriptStruct* StaticStruct<struct FLootLockerGetScoreListResponse>();
+
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerLeaderboardRequestHandler_h_100_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FLootLockerGetAllMemberRanksResponse_Statics; \
+	LOOTLOCKERSDK_API static class UScriptStruct* StaticStruct(); \
+	typedef FLootLockerResponse Super;
+
+
+template<> LOOTLOCKERSDK_API UScriptStruct* StaticStruct<struct FLootLockerGetAllMemberRanksResponse>();
+
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerLeaderboardRequestHandler_h_110_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FLootLockerSubmitScoreResponse_Statics; \
+	LOOTLOCKERSDK_API static class UScriptStruct* StaticStruct(); \
+	typedef FLootLockerResponse Super;
+
+
+template<> LOOTLOCKERSDK_API UScriptStruct* StaticStruct<struct FLootLockerSubmitScoreResponse>();
+
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerLeaderboardRequestHandler_h_124_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FLootLockerSubmitScoreRequest_Statics; \
+	LOOTLOCKERSDK_API static class UScriptStruct* StaticStruct();
+
+
+template<> LOOTLOCKERSDK_API UScriptStruct* StaticStruct<struct FLootLockerSubmitScoreRequest>();
+
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerLeaderboardRequestHandler_h_136_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FLootLockerGetMemberRankRequest_Statics; \
+	LOOTLOCKERSDK_API static class UScriptStruct* StaticStruct();
+
+
+template<> LOOTLOCKERSDK_API UScriptStruct* StaticStruct<struct FLootLockerGetMemberRankRequest>();
+
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerLeaderboardRequestHandler_h_146_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FLootLockerGetScoreListRequest_Statics; \
+	LOOTLOCKERSDK_API static class UScriptStruct* StaticStruct();
+
+
+template<> LOOTLOCKERSDK_API UScriptStruct* StaticStruct<struct FLootLockerGetScoreListRequest>();
+
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerLeaderboardRequestHandler_h_158_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FLootLockerGetAllMemberRanksRequest_Statics; \
+	LOOTLOCKERSDK_API static class UScriptStruct* StaticStruct();
+
+
+template<> LOOTLOCKERSDK_API UScriptStruct* StaticStruct<struct FLootLockerGetAllMemberRanksRequest>();
+
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerLeaderboardRequestHandler_h_170_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FLootLockerGetByListMembersRequest_Statics; \
+	LOOTLOCKERSDK_API static class UScriptStruct* StaticStruct();
+
+
+template<> LOOTLOCKERSDK_API UScriptStruct* StaticStruct<struct FLootLockerGetByListMembersRequest>();
+
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerLeaderboardRequestHandler_h_175_DELEGATE \
+LOOTLOCKERSDK_API void FLootLockerGetMemberRankResponseBP_DelegateWrapper(const FScriptDelegate& LootLockerGetMemberRankResponseBP, FLootLockerGetMemberRankResponse Response);
+
+
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerLeaderboardRequestHandler_h_177_DELEGATE \
+LOOTLOCKERSDK_API void FLootLockerGetByListOfMembersResponseBP_DelegateWrapper(const FScriptDelegate& LootLockerGetByListOfMembersResponseBP, FLootLockerGetByListOfMembersResponse Response);
+
+
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerLeaderboardRequestHandler_h_179_DELEGATE \
+LOOTLOCKERSDK_API void FLootLockerGetScoreListResponseBP_DelegateWrapper(const FScriptDelegate& LootLockerGetScoreListResponseBP, FLootLockerGetScoreListResponse Response);
+
+
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerLeaderboardRequestHandler_h_181_DELEGATE \
+LOOTLOCKERSDK_API void FLootLockerSubmitScoreResponseBP_DelegateWrapper(const FScriptDelegate& LootLockerSubmitScoreResponseBP, FLootLockerSubmitScoreResponse Response);
+
+
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerLeaderboardRequestHandler_h_183_DELEGATE \
+LOOTLOCKERSDK_API void FLootLockerGetAllMemberRanksResponseBP_DelegateWrapper(const FScriptDelegate& LootLockerGetAllMemberRanksResponseBP, FLootLockerGetAllMemberRanksResponse Response);
+
+
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerLeaderboardRequestHandler_h_194_SPARSE_DATA
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerLeaderboardRequestHandler_h_194_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerLeaderboardRequestHandler_h_194_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerLeaderboardRequestHandler_h_194_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerLeaderboardRequestHandler_h_194_ACCESSORS
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerLeaderboardRequestHandler_h_194_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesULootLockerLeaderboardRequestHandler(); \
+	friend struct Z_Construct_UClass_ULootLockerLeaderboardRequestHandler_Statics; \
+public: \
+	DECLARE_CLASS(ULootLockerLeaderboardRequestHandler, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/LootLockerSDK"), NO_API) \
+	DECLARE_SERIALIZER(ULootLockerLeaderboardRequestHandler)
+
+
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerLeaderboardRequestHandler_h_194_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API ULootLockerLeaderboardRequestHandler(ULootLockerLeaderboardRequestHandler&&); \
+	NO_API ULootLockerLeaderboardRequestHandler(const ULootLockerLeaderboardRequestHandler&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ULootLockerLeaderboardRequestHandler); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ULootLockerLeaderboardRequestHandler); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ULootLockerLeaderboardRequestHandler) \
+	NO_API virtual ~ULootLockerLeaderboardRequestHandler();
+
+
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerLeaderboardRequestHandler_h_191_PROLOG
+#define FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerLeaderboardRequestHandler_h_194_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerLeaderboardRequestHandler_h_194_SPARSE_DATA \
+	FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerLeaderboardRequestHandler_h_194_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerLeaderboardRequestHandler_h_194_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerLeaderboardRequestHandler_h_194_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerLeaderboardRequestHandler_h_194_ACCESSORS \
+	FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerLeaderboardRequestHandler_h_194_INCLASS_NO_PURE_DECLS \
+	FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerLeaderboardRequestHandler_h_194_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> LOOTLOCKERSDK_API UClass* StaticClass<class ULootLockerLeaderboardRequestHandler>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_GitProject_RLfalljam2023_Pumpking_Soul_Plugins_LootLockerSDK_Source_LootLockerSDK_Public_GameAPI_LootLockerLeaderboardRequestHandler_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
