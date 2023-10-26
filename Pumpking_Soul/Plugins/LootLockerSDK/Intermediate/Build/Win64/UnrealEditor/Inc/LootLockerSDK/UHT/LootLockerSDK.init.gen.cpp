@@ -215,7 +215,7 @@ void EmptyLinkFunctionForGeneratedCodeLootLockerSDK_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0xEF305BA9,
+				0x3207095D,
 				0x75208B9A,
 				METADATA_PARAMS(0, nullptr)
 			};
@@ -223,5 +223,5 @@ void EmptyLinkFunctionForGeneratedCodeLootLockerSDK_init() {}
 		}
 		return Z_Registration_Info_UPackage__Script_LootLockerSDK.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_LootLockerSDK(Z_Construct_UPackage__Script_LootLockerSDK, TEXT("/Script/LootLockerSDK"), Z_Registration_Info_UPackage__Script_LootLockerSDK, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xEF305BA9, 0x75208B9A));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_LootLockerSDK(Z_Construct_UPackage__Script_LootLockerSDK, TEXT("/Script/LootLockerSDK"), Z_Registration_Info_UPackage__Script_LootLockerSDK, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x3207095D, 0x75208B9A));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
